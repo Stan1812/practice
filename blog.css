@@ -8,6 +8,9 @@ nav{
 	height: 700px;
 
 }
+#banner :hover {
+	transform: scale(1.1,1.1);
+}
 nav ul li {
 	display: inline-block;
 	line-height: 50px;
@@ -21,6 +24,11 @@ nav ul li a {
 	text-decoration: none;
 	height: inherit;
 }
+a:visited{
+			color:#bfa0c3;
+			border-bottom: none;
+			font-weight: bold;}
+
 nav ul li.logo{
 	float:left;
 	line-height: 50px;
@@ -38,6 +46,7 @@ nav ul li.logo{
 #banner .inner h2{
 	font-size: 110%;font-weight: 600;
 }
+
 
 .sub-heading{
 	line-height: 30px;
@@ -81,19 +90,28 @@ button{
 .icon-group{
 	margin-top: 60px;
 }
-.green-section .icon-group .icon{
+.green-section .icon1-group .icon{
+	
 	display: inline-block;	
 	width: 80px;
 	height: 80px;
 	
 	border: 1px solid #0d6f7c;
-	transform: rotate(45deg);
+	
 	margin: 20px;
-	transition:0.3s ease-out;
+	transition:1s ;
 }
-.green-section .icon-group .icon img{
-	transform: rotate(-45deg);
-	margin:5 auto;
+
+ figcaption span:hover{
+	transform-origin:0.5 0.5;
+	transform:rotate(360deg);
+}
+
+
+ .icon1-group  img{
+	
+	
+	margin-top: 20px;
 }
 
 /*正文第一段*/
@@ -103,8 +121,12 @@ button{
 	background-color: #4d4c7b;
 	color:#FFF;
 }
-
+.gray-section:hover{
+transform: scale(1.05 ,1.05);
+background-color: #1a4e7e;
+}
 .gray-section .img-section{width: 45%;}
+
 
 .img-section img{width: 100%;}
 
@@ -279,10 +301,11 @@ ul.share-icon{
 	background-size: cover;
 	background-position: center;
 }
-figcaption{
+.icon-group figcaption{
 	transform: scale(0.8,0.8);
 }
 .icon-group:hover figcaption {
 	transform: scale(1,1);
 }
 li{list-style:none;}
+
