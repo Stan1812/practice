@@ -1,6 +1,7 @@
 nav{
-	background-color: #ccc;
+	background :rgba(c,c,c,0.5);
 	height: 50px;
+
 }
 #banner{
 	background:rgba(0,0,0,0.2);
@@ -12,6 +13,7 @@ nav ul li {
 	line-height: 50px;
 	float:right;
 	margin-right: 20px;
+	color: #fff;
 	
 }
 nav ul li a {
@@ -88,6 +90,10 @@ button{
 	transform: rotate(45deg);
 	margin: 20px;
 	transition:0.3s ease-out;
+}
+.green-section .icon-group .icon img{
+	transform: rotate(-45deg);
+	margin:5 auto;
 }
 
 /*正文第一段*/
@@ -256,11 +262,12 @@ ul.share-icon{
 	padding: 50px;
 	
 }
-.share-icon li
+.share-icon .icon-group 
 {
 	display: inline-block;
 	margin: 0 auto;
 	padding: 10px;
+
 }
 .copy{
 	padding: 20px;
@@ -272,3 +279,10 @@ ul.share-icon{
 	background-size: cover;
 	background-position: center;
 }
+figcaption{
+	transform: scale(0.8,0.8);
+}
+.icon-group:hover figcaption {
+	transform: scale(1,1);
+}
+li{list-style:none;}
