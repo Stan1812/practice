@@ -295,11 +295,13 @@ ul.share-icon{
 	padding: 20px;
 }
 .main-wrapper{
-	background:#444 url(img/17.jpg);
+	background :url(img/01.png);
+	
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	overflow: hidden;
 }
 .icon-group figcaption{
 	transform: scale(0.8,0.8);
@@ -309,3 +311,38 @@ ul.share-icon{
 }
 li{list-style:none;}
 
+.mask{
+	 display: none;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background:rgba(0,0,0,0.3);
+	
+}
+#sidebar{
+	
+	width: 300px;
+	background: #333;
+	color: #fff;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0px;
+	padding:20px 0;
+}
+#sidebar{
+	list-style: none;	
+}
+#sidebar ul a{
+	padding: 10px 30px;
+	text-decoration: none;
+	padding: 10px;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+ figcaption #sidebar ul a:hover{
+	background: #444;
+}
