@@ -27,7 +27,7 @@ nav ul li a {
 a:visited{
 			color:#57bee0;
 			border-bottom: none;
-			font-weight: bold;}
+			font-weight: bol·d;}
 
 nav ul li.logo{
 	float:left;
@@ -144,12 +144,15 @@ background-color: #1a4e7e;
 	clear: both;
 }
 .text-section h2{
+	
 	margin-bottom: 20px;
 	font-size: 25px;
 }
 .text-section p{
-	font-size: 18px;
-	letter-spacing: 1px;
+	text-indent: 2em;
+	font-size: 15px;
+	letter-spacing: 2px;
+	line-height: 20px;
 }
 .text-section .sub-section{
 	font-size: 20px; 
@@ -347,3 +350,11 @@ li{list-style:none;}
  figcaption #sidebar ul a:hover{
 	background: #444;
 }
+.main-wrapper2{
+	background :url(img/140-150R0161429.jpg);
+	
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
