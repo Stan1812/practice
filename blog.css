@@ -1,3 +1,4 @@
+
 nav{
 	background :rgba(c,c,c,0.5);
 	height: 50px;
@@ -16,7 +17,6 @@ nav ul li {
 	line-height: 50px;
 	float:right;
 	margin-right: 20px;
-	color: #fff;
 	
 }
 nav ul li a {
@@ -25,7 +25,7 @@ nav ul li a {
 	height: inherit;
 }
 a:visited{
-			color:#bfa0c3;
+			color:#57bee0;
 			border-bottom: none;
 			font-weight: bold;}
 
@@ -38,10 +38,11 @@ nav ul li.logo{
 	text-align: center;
 	margin: 0 auto;
     position:relative;
-    top: 240px;
+    top: 240px;color: #fff;
 }
 #banner .inner h2,p{
 	margin:0;
+	
 }
 #banner .inner h2{
 	font-size: 110%;font-weight: 600;
@@ -331,6 +332,7 @@ li{list-style:none;}
 	right: -300px;
 	padding:20px 0;
 }
+
 #sidebar{
 	list-style: none;	
 }

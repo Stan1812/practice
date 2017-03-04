@@ -10,9 +10,9 @@ $(function()
 
 	sidebar_trigger.on('click' ,function()
 		{
-			sidebar.animate({'right';0})
+			sidebar.animate('right')
 			
-	})return:fluse;
+	})
 
 })
 
