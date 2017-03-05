@@ -14,6 +14,7 @@ nav{
 }
 #banner :hover {
 	transform: scale(1.1,1.1);
+	transition: 0.5s;
 }
 nav ul li {
 	display: inline-block;
@@ -26,14 +27,12 @@ nav ul li a {
 	line-height:50px;
 	text-decoration: none;
 	height: inherit;
-}
-a:{
 	color: #57e0da;
 }
 a:visited{
 			color:#57bee0;
 			border-bottom: none;
-			font-weight: bol·d;}
+			}
 
 nav ul li.logo{
 	float:left;
@@ -129,8 +128,9 @@ button{
 	color:#FFF;
 }
 .gray-section:hover{
-transform: scale(1.05 ,1.05);
-background-color: #1a4e7e;
+transform: scale(1 ,1.05);
+background-color: #7c96b3;
+transition: 0.3s;
 }
 .gray-section .img-section{width: 45%;}
 
@@ -179,7 +179,11 @@ background-color: #1a4e7e;
 	background-color: #201f52;
 	color:#FFF;
 }
-
+.gray2-section:hover{
+transform: scale(1.00 ,1.05);
+background-color: #7c96b3;
+transition: 0.3s;
+}
 .gray2-section .img2-section{width: 45%;}
 
 .img2-section img{width: 100%;}
@@ -207,7 +211,7 @@ background-color: #1a4e7e;
 .text2-section .sub-section2{
 	font-size: 20px; 
 }
-.text-section2{
+.text2-section{
 	position: relative;
 	top: 60px;
 	left: 50px;
@@ -220,7 +224,11 @@ background-color: #1a4e7e;
 	background-color: #4d4c7b;
 	color:#FFF;
 }
-
+.gray3-section:hover{
+transform: scale(1.0 ,1.05);
+background-color: #7c96b3;
+transition: 0.3s;
+}
 .gray3-section .img3-section{width: 45%;}
 
 .img3-section img{width: 100%;}
@@ -304,7 +312,7 @@ ul.share-icon{
 	padding: 20px;
 }
 .main-wrapper{
-	background :url(img/01.png);
+	background :url(img/363-4-1600x900.jpg);
 	
 	background-attachment: fixed;
 	background-size: 100% 100%;

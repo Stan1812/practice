@@ -12,9 +12,9 @@ nav{
 	height: 50px;
 
 }
-#banner :hover {
+.inner:hover {
 	transform: scale(1.1,1.1);
-	transition: 0.5s;
+	transition: 0.6s;
 }
 nav ul li {
 	display: inline-block;
