@@ -5,7 +5,7 @@ html, body, div, span, object, iframe,
 abbr, address, cite, code,
 del, dfn, em, img, ins, kbd, q, samp,
 small, strong, sub, sup, var,
-b, i,h1,h2,h3,h4,h5,h6,
+b, i,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
@@ -20,7 +20,10 @@ time, mark, audio, video {
     vertical-align:baseline;
     background:transparent;
 }
-
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    
+}
 
 body {
     line-height:1;

@@ -1,3 +1,6 @@
+body{
+	font-family:courier,times,sans-serif;
+}
 
 nav{
 	background :rgba(c,c,c,0.5);
@@ -23,6 +26,9 @@ nav ul li a {
 	line-height:50px;
 	text-decoration: none;
 	height: inherit;
+}
+a:{
+	color: #57e0da;
 }
 a:visited{
 			color:#57bee0;
@@ -301,10 +307,12 @@ ul.share-icon{
 	background :url(img/01.png);
 	
 	background-attachment: fixed;
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center;
+	background-position: center center;
 	overflow: hidden;
+
 }
 .icon-group figcaption{
 	transform: scale(0.8,0.8);
@@ -350,11 +358,3 @@ li{list-style:none;}
  figcaption #sidebar ul a:hover{
 	background: #444;
 }
-.main-wrapper2{
-	background :url(img/140-150R0161429.jpg);
-	
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	overflow: hidden;
