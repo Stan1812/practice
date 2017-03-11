@@ -9,7 +9,7 @@ nav{
 }
 #banner{
 	background:rgba(0,0,0,0.2);
-	height: 700px;
+	height: 761px;
 
 }
 #banner :hover {
@@ -27,6 +27,9 @@ nav ul li a {
 	line-height:50px;
 	text-decoration: none;
 	height: inherit;
+	
+}
+a :link{
 	color: #57e0da;
 }
 a:visited{
@@ -100,11 +103,9 @@ button{
 	
 	display: inline-block;	
 	width: 80px;
-	height: 80px;
-	
-	border: 1px solid #0d6f7c;
-	
-	margin: 20px;
+	height: 80px;	
+	border: 1px solid #0d6f7c;	
+	margin: 30px;
 	transition:1s ;
 }
 
@@ -114,7 +115,7 @@ button{
 }
 
 
- .icon1-group  img{
+ .icon1-group  i{
 	
 	
 	margin-top: 20px;
@@ -129,7 +130,7 @@ button{
 }
 .gray-section:hover{
 transform: scale(1 ,1.05);
-background-color: #7c96b3;
+background-color: #487bb5;
 transition: 0.3s;
 }
 .gray-section .img-section{width: 45%;}
@@ -181,7 +182,7 @@ transition: 0.3s;
 }
 .gray2-section:hover{
 transform: scale(1.00 ,1.05);
-background-color: #7c96b3;
+background-color: #487bb5;
 transition: 0.3s;
 }
 .gray2-section .img2-section{width: 45%;}
@@ -226,7 +227,7 @@ transition: 0.3s;
 }
 .gray3-section:hover{
 transform: scale(1.0 ,1.05);
-background-color: #7c96b3;
+background-color: #487bb5;
 transition: 0.3s;
 }
 .gray3-section .img3-section{width: 45%;}
