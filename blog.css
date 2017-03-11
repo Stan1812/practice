@@ -9,7 +9,11 @@ nav{
 }
 #banner{
 	background:rgba(0,0,0,0.2);
+<<<<<<< HEAD
 	height: 761px;
+=======
+	height: 762px;
+>>>>>>> origin/master
 
 }
 #banner :hover {
