@@ -1,5 +1,5 @@
 body{
-	font-family:courier,times,sans-serif;
+	font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 nav{
@@ -188,9 +188,7 @@ transition: 0.3s;
 
 .img2-section img{width: 100%;}
 
-.gray2-section .text2-section
-{width: 55%;	
-}
+
 
 .article2-review > div{float: right;}
 
@@ -214,7 +212,8 @@ transition: 0.3s;
 .text2-section{
 	position: relative;
 	top: 60px;
-	left: 50px;
+	left: -35px;
+	width: 50%;
 }
 
 
@@ -365,4 +364,18 @@ li{list-style:none;}
 }
  figcaption #sidebar ul a:hover{
 	background: #444;
+}
+.backtop{
+	position: fixed;
+	color: #fff;
+	background: rgba(0,0,0,0.7);
+	text-align: center;
+	font-size: 490%;
+	font-family: cursive, sans-serif;
+	width: 100px;
+	right: 2%;
+	bottom: 8%;
+	transform: rotate(-90deg);
+	border-radius: 10px;
+	display: none;
 }

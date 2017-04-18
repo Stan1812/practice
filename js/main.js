@@ -1,23 +1,24 @@
+$("document").ready(function(){
 
-
-
-$(function()
-{
-	'use strict';
-	var sidebar=$('#sidebar'),
-		mask=$(',mask'),
-		sidebar_trigger=$('#sidebar_trigger');
-
-	sidebar_trigger.on('click' ,function()
-		{
-			sidebar.animate('right')
-			
+	//绑定侧栏菜单的事件
+	$(".sidebar_trigger").click(function(){
+		$("#sidebar").css("right","0px")
+		$(".mask").show()
+		console.log("lllll")
+	})
+	$(".mask").click(function(){
+		$("#sidebar").css("right","-300px")
+		$(".mask").hide()
 	})
 
+	//返回顶部部分
+	$(window).scroll(function(){
+		if($(window).scrollTop()>$(window).height())
+			$(".backtop").show()
+		else($(".backtop").hide())
+	})
+
+	$(".backtop").click(function(){
+		$('html,body').animate({scrollTop:0})
+	})
 })
-
-
-
-
-
-	
