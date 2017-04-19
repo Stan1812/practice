@@ -14,11 +14,15 @@ $("document").ready(function(){
 	//返回顶部部分
 	$(window).scroll(function(){
 		if($(window).scrollTop()>$(window).height())
-			$(".backtop").show()
-		else($(".backtop").hide())
+			{
+			  $(".backtop").show()
+			}
+		else {
+			  $(".backtop").hide()
+			}
 	})
 
 	$(".backtop").click(function(){
-		$('html,body').animate({scrollTop:0})
+		$('body').animate({scrollTop:0})
 	})
 })
