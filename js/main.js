@@ -4,11 +4,13 @@ $("document").ready(function(){
 	$(".sidebar_trigger").click(function(){
 		$("#sidebar").css("right","0px")
 		$(".mask").show()
+		$(".main-wrapper").css("filter","blur(1px)")
 		console.log("lllll")
 	})
 	$(".mask").click(function(){
 		$("#sidebar").css("right","-300px")
 		$(".mask").hide()
+		$(".main-wrapper").css("filter","blur(0px)")
 	})
 
 	//返回顶部部分
@@ -25,4 +27,14 @@ $("document").ready(function(){
 	$(".backtop").click(function(){
 		$('body').animate({scrollTop:0})
 	})
+
+	//nav固定
+	$(window).scroll(function(){
+		if($(window).scrollTop()>0)
+			{
+			 $("nav").css("position:fixed")
+			}
+	})
+
+
 })
