@@ -28,13 +28,4 @@ $("document").ready(function(){
 		$('body').animate({scrollTop:0})
 	})
 
-	//nav固定
-	$(window).scroll(function(){
-		if($(window).scrollTop()>0)
-			{
-			 $("nav").css("position:fixed")
-			}
-	})
-
-
 })
